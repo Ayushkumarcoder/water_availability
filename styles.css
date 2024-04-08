@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.quote-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
