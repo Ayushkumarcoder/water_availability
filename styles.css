@@ -227,3 +227,108 @@ html {
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+h5.section-title.h1.text-left.mb-2.text-capitalize {
+    font-size: 26px;
+    color: #ff5e15;
+    margin-left: 25px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+h5.section-title.h1 {
+    color: #fd7435;
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+.resentFontPanel {
+    font-family: Cambria, Georgia, serif;
+}
+.welP {
+    font-size: 16px;
+    text-align: justify !important;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0);
+}
+.text-left {
+    text-align: left !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem !important;
+}
+p {
+    margin: 0 0 10px;
+}
+p, ul li {
+    font-size: 16px;
+    letter-spacing: .6px;
+    font-weight: 500;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 25;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
