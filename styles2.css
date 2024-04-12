@@ -1,0 +1,635 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.quote-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+.waterdata-dynamic {
+    text-align: center;
+    margin: 25px auto 0;
+    display: table;
+}
+
+.comonSection {
+    width: 100%;
+    position: relative;
+    padding: 35px 0;
+    font-family: Cambria, Georgia, serif;
+}
+
+.waterdata-dynamic a {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    color: #000;
+    line-height: 200px;
+    display: inline-block;
+    background: #ffc800;
+    text-decoration: none;
+    font-size: 14px;
+    word-break: break-all;
+    transition: all 0.5s ease;
+    border: 5px solid #fff;
+}
+
+
+.waterdata-dynamic .firstwatercircle a:nth-child(2) {
+    background: rgb(255 217 166 / 72%);
+    z-index: 1;
+    position: relative;
+}
+.waterdata-dynamic a:hover {
+    transform: scale(1.1);
+}
+.waterdata-dynamic .firstwatercircle a {
+    line-height: 190px;
+}
+a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+a, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.waterdata-dynamic .firstwatercircle a:nth-child(1) {
+    background: rgb(232 152 150 / 72%);
+}
+
+.waterdata-dynamic .firstwatercircle a:nth-child(3) {
+    background: rgba(199, 204, 97, 0.72);
+    position: relative;
+    z-index: 3;
+}
+
+.secondwatercircle {
+    position: relative;
+    top: -70px;
+    left: 90px;
+}
+
+.waterdata-dynamic .secondwatercircle a:nth-child(1) {
+    background: rgb(232 174 149 / 72%);
+}
+.waterdata-dynamic .secondwatercircle a:nth-child(2) {
+    background: rgb(232 219 152 / 72%);
+    z-index: 2;
+    position: relative;
+}
+.waterdata-dynamic .secondwatercircle a:nth-child(3) {
+    background: rgb(204 228 154 / 72%);
+    position: relative;
+    z-index: 4;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.comonSection {
+    width: 100%;
+    position: relative;
+    padding: 35px 0;
+    font-family: Cambria, Georgia, serif;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #ececec;
+    float: left;
+    position: relative;
+    width: 100%;
+    color: #000;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1025px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+injected stylesheet
+:host, :root {
+    --rem: 16;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h5.section-title.h1.text-left.mb-2.text-capitalize {
+    font-size: 26px;
+    color: #ff5e15;
+    margin-left: 25px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+h5.section-title.h1 {
+    color: #fd7435;
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+.resentFontPanel {
+    font-family: Cambria, Georgia, serif;
+}
+.welP {
+    font-size: 16px;
+    text-align: justify !important;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0);
+}
+.text-left {
+    text-align: left !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem !important;
+}
+p {
+    margin: 0 0 10px;
+}
+p, ul li {
+    font-size: 16px;
+    letter-spacing: .6px;
+    font-weight: 500;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 25;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.groundwaterBG {
+    background: -webkit-linear-gradient(rgba(0, 11, 51, 0.72), rgba(0, 11, 51, 0.72)), url(../images/groundwaterbg.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    padding: 55px 0 35px 0;
+    background-attachment: fixed;
+    text-align: center;
+    clear: both;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.about-us figure {
+    padding: 0 40px 40px 0;
+    width: 450px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    position: relative;
+}
+.mr-5, .mx-5 {
+    margin-right: 3rem !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem !important;
+}
+.float-left {
+    float: left !important;
+}
+figure {
+    margin: 0 0 1rem;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+h5.section-title.h1.text-left.mb-2.text-capitalize {
+    font-size: 26px;
+    color: #ff5e15;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+h5.section-title.h1 {
+    color: #fd7435;
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+section .section-title {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0);
+}
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem !important;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+[data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+}
+[data-aos][data-aos][data-aos-easing=linear], body[data-aos-easing=linear] [data-aos] {
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+.resentFontPanel {
+    font-family: Cambria, Georgia, serif;
+}
+.welP {
+    font-size: 16px;
+    text-align: justify !important;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+[data-aos=fade-up] {
+    transform: translate3d(0, 100px, 0);
+}
+.text-left {
+    text-align: left !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem !important;
+}
+p {
+    margin: 0 0 10px;
+}
+p, ul li {
+    font-size: 16px;
+    letter-spacing: .6px;
+    font-weight: 500;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td {
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.6;
+}
