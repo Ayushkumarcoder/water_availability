@@ -452,6 +452,83 @@ li {
     top: 13px;
     color: #ff5e15;
 }
+.groundwaterBG {
+    background: -webkit-linear-gradient(rgba(0, 11, 51, 0.72), rgba(0, 11, 51, 0.72)), url(../images/groundwaterbg.jpg);
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    padding: 55px 0 35px 0;
+    background-attachment: fixed;
+    text-align: center;
+    clear: both;
+}
+h5.section-title.h1.text-left.mb-2.text-capitalize {
+    font-size: 26px;
+    color: #ff5e15;
+}
+h5.section-title.h1 {
+    color: #fd7435;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.resentFontPanel {
+    font-family: Cambria, Georgia, serif;
+}
+.welP {
+    font-size: 16px;
+    text-align: justify !important;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+.orange_arrow li {
+    position: relative;
+    padding: 10px 0 10px 15px;
+    text-align: justify !important;
+}
+.resentFontPanel {
+    font-family: Cambria, Georgia, serif;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.orange_arrow li:after {
+    content: '\f061';
+    font-family: FontAwesome;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    color: #ff5e15;
+}
+.white {
+    padding: 35px 0;
+    background-color: #fff;
+}
+h5.section-title.h1.text-left.mb-2.text-capitalize {
+    font-size: 26px;
+    color: #ff5e15;
+}
+h5.section-title.h1 {
+    color: #fd7435;
+}
+.white h5 {
+    font-size: 26px;
+    color: #ff5e15;
+}
+
+
+
 
 
 
